@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:Maikittitee/ft-transcendence-backend-42.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:EsperSaN/front-end_ft_trancendent.git
