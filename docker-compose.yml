@@ -8,3 +8,9 @@ services:
     ports:
       - 8000:80
     restart: always
+
+  user_management:
+    container_name: "user_management"
+    build: ./backend
+    ports: 
+      - "9000:9000"
