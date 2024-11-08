@@ -1,0 +1,10 @@
+version: '3'
+services:
+  meaw_pong:
+    image: nginx:latest
+    container_name: meaw_pong
+    volumes:
+      - /Users/maikittitee/Focusing/trans-42/frontend:/usr/share/nginx/html
+    ports:
+      - 8000:80
+    restart: always
